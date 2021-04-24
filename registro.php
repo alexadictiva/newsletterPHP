@@ -37,7 +37,20 @@
         text-shadow:0 2px 8px black;
         
       }
-      
+      .btnBackContainer{
+        text-align:center;
+        margin-top:50px;
+      }
+      .btnBack{
+        text-decoration:none;
+        background:white;
+        color:#5dc1b9;
+        font-size:1.7rem;
+        box-shadow:0 2px 8px black;
+        padding:10px 50px;
+        border-radius:50px;
+        
+      }      
 
     </style>
     <title>Newsletter</title>
@@ -45,7 +58,7 @@
   <body>
     <main>
       <section class="infoSuccessContainer">
-        <h1>
+        <div>
           <?php
          
           $varNombre = $_REQUEST['nombre'];
@@ -69,13 +82,10 @@
           }
 
           mysqli_close($conection)
-          
-
-        
         ?>
-        </h1>
-         
-        
+        </div>
+        <p class="btnBackContainer">
+        <a class="btnBack" href="index.php">Atrás</a></p>
       </section>
     </main>
   </body>
