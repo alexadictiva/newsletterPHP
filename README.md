@@ -1,10 +1,13 @@
 # Suscribe to newsletter Practice
 
-##Description:
+## Description:
+
 Small practice of the form with php and connection to MySql database for subscription to "Newsletter".
 
-##Details:
+## Details:
+
 mysqli connection
 
-##Tester Page:
+## Tester Page:
+
 [test page](https://alexadictiva.github.io/newsletterPHP/)
