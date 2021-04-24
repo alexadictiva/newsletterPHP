@@ -7,4 +7,4 @@ Small practice of the form with php and connection to MySql database for subscri
 mysqli connection
 
 ##Tester Page:
-(test page)[https://alexadictiva.github.io/newsletterPHP/]
+[test page](https://alexadictiva.github.io/newsletterPHP/)
